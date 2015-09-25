@@ -7,4 +7,15 @@ FactoryGirl.define do
     password_confirmation 'password'
   end
 
+  factory :manufacturer do
+    name "Motorola"
+    country "USA"
+  end
+
+  factory :phone do
+    year "Motorola"
+    battery_life "USA"
+    manufacturer_id 1
+  end
+
 end
